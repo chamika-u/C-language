@@ -1,4 +1,4 @@
-// Data Types
+// Main Data Types
 
 #include <stdio.h>
 int main() {
