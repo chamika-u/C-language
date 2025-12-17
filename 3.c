@@ -8,8 +8,18 @@ int main() {
     double largeDecimal = 20.99;
 
     printf("Integer: %d\n", number);
-    printf("Float: %.2f\n", decimal);
+    printf("Float: %.0f\n", decimal); // no decimal places
+    printf("Float: %.1f\n", decimal); // .1 for one decimal place
+    printf("Float: %.2f\n", decimal); //.2 for two decimal places
+    printf("Float: %.3f\n", decimal); //.3 for three decimal places
     printf("Character: %c\n", character);
-    printf("Double: %.2lf\n", largeDecimal);
+    printf("Double: %.0lf\n", largeDecimal); // no decimal places
+    printf("Double: %.1lf\n", largeDecimal); //.1 for one decimal place 
+    printf("Double: %.2lf\n", largeDecimal); //.2 for two decimal places
+    printf("Double: %.3lf\n", largeDecimal); //.3 for three decimal places
+    printf("Double: %.5lf\n", largeDecimal); //.5 for five decimal places
+    printf("Double: %lf\n", largeDecimal); // default precision
+
+
     return 0;
 }
