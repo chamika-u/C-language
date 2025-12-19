@@ -6,6 +6,8 @@ int main() {
     float decimal = 5.5;
     char character = 'A';
     double largeDecimal = 20.99;
+    double syntaxDouble = 35.56789f; // no suffix for double literal
+    float syntaxFloat = 35.56789f; // 'f' suffix for float literal
 
     printf("Integer: %d\n", number);
     printf("Float: %.0f\n", decimal); // no decimal places
@@ -19,7 +21,8 @@ int main() {
     printf("Double: %.3lf\n", largeDecimal); //.3 for three decimal places
     printf("Double: %.5lf\n", largeDecimal); //.5 for five decimal places
     printf("Double: %lf\n", largeDecimal); // default precision
-
-
+    printf("Syntax Float: %f\n", syntaxFloat); // default precision
+    printf("Syntax Double: %.3f\n", syntaxDouble); // .3 for three decimal places
+    
     return 0;
 }
