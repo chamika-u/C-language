@@ -18,6 +18,10 @@
     char
 */
 
+// Lower data types are converted to higher data types during implicit conversion.
+// Explicit conversion is done using type casting.
+// Type casting is done by placing the desired data type in parentheses before the variable to be converted.
+
 #include <stdio.h>
 
 int main() {
