@@ -36,8 +36,16 @@ int main() {
     float result = a + b; // implicit conversion of 'a' to float
     printf("The result is: %.2f\n", result);
 
-     /*In here even though 'a' is an int, it is implicitly
-     converted to float before the addition operation.*/
+    /*In here even though 'a' is an int, it is implicitly
+    converted to float before the addition operation.*/
+
+    int a = 45;
+    float b = 55.5;
+    float result = a + (int)b; // explicit conversion of 'b' to int
+    printf("The result is: %.2f\n", result);
+
+    /*Here, we are explicitly converting 'b' to an int using type casting.
+    This means that the decimal part of 'b' will be truncated before the addition operation.*/
    
     int c = 100;
     float d = 200.5;
@@ -56,6 +64,8 @@ int main() {
     char data type recognize in ASCII value so it will convert char to int implicitly*/
 
     // So, the ASCII value of 'A' is 65, so 65 + 4 = 69
+
+
 
     return 0;
 }
