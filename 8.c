@@ -10,6 +10,10 @@ int main() {
     bool b = false;
     bool c;
     bool d;
+    int number1 = 10;
+    int number2 = 20;
+    int age = 25;
+    int votingAge = 18;
 
     // printing boolean values
     printf(" Boolean a: %d\n", a);
@@ -37,6 +41,14 @@ int main() {
     printf(" 5 >= 3: %d\n", (5 >= 3)); // greater than or equal to
     printf(" 5 <= 3: %d\n", (5 <= 3)); // less than or equal to
     
+    // comparison between two variables
+    printf(" number1 < number2: %d\n", (number1 < number2));
+    printf(" number1 > number2: %d\n", (number1 > number2));  
+
+    // checking voting eligibility
+    bool isEligible = (age >= votingAge); // age comparison
+    printf(" Is eligible to vote: %d\n", isEligible);
+
     return 0;
 
 }
