@@ -29,7 +29,11 @@ int main() {
     printf("Double: %.5lf\n", largeDecimal); //.5 for five decimal places
     printf("Double: %lf\n", largeDecimal); // default precision
 
-    
-   
+    printf("Size of int: %zu bytes\n", sizeof(number)); // size of int
+    printf("Size of float: %zu bytes\n", sizeof(decimal)); // size of float
+    printf("Size of char: %zu bytes\n", sizeof(character)); // size of char
+    printf("Size of double: %zu bytes\n", sizeof(largeDecimal)); // size of double 
+
+
     return 0;
 }
