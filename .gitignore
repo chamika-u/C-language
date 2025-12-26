@@ -3,3 +3,52 @@
 
 # JSON files
 *.json
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# object files
+*.o
+*.obj
+
+# Compiled source files
+*.class
+*.pyc
+*.dll
+*.so
+*.dylib
+
+# Backup files
+*~
+*.bak   
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.opendb
+*.VC.db
+*.pidb
+*.sln.docstates
+*.swp
+*.swo
+*.kate-swp
+*.directory
+
+# pdb files
+*.pdb
+
+# Coverage files
+*.lcov  
+coverage/
+.nyc_output/    
+
