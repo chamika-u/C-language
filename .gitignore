@@ -50,5 +50,8 @@ Thumbs.db
 # Coverage files
 *.lcov  
 coverage/
-.nyc_output/    
+.nyc_output/   
+
+# ilk files
+*.ilk
 
