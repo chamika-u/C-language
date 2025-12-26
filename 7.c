@@ -39,13 +39,13 @@ int main() {
     /*In here even though 'a' is an int, it is implicitly
     converted to float before the addition operation.*/
 
-    int a = 45;
-    float b = 55.5;
-    float result = a + (int)b; // explicit conversion of 'b' to int
-    printf("The result is: %.2f\n", result);
+    int z= 45;
+    float r = 55.5;
+    float result2 = z + (int)r; // explicit conversion of 'r' to int
+    printf("The result is: %.2f\n", result2);
 
-    /*Here, we are explicitly converting 'b' to an int using type casting.
-    This means that the decimal part of 'b' will be truncated before the addition operation.*/
+    /*Here, we are explicitly converting 'r' to an int using type casting.
+    This means that the decimal part of 'r' will be truncated before the addition operation.*/
    
     int c = 100;
     float d = 200.5;
