@@ -20,6 +20,7 @@ int main() {
     printf("Syntax Double: %.3f\n", syntaxDouble); // .3 for three decimal places
 
     printf("Character: %c\n", character); //Character 
+    printf("Character ASCII: %d\n", character); //Character ASCII value
 
     printf("Double: %.0lf\n", largeDecimal); // no decimal places
     printf("Double: %.1lf\n", largeDecimal); //.1 for one decimal place 
