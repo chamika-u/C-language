@@ -28,11 +28,8 @@ int main() {
     */
 
     // nested if statement to check citizenship and age
-    if (age > 120) {    // basic validation for age input
+    if((age > 120) || (age < 0)) {    // basic validation for age input
         printf("Invalid age entered.\n"); 
-    }
-    else if (age < 0) { // basic validation for age input
-        printf("Invalid age entered.\n");
     }
     else { // valid age input
         if (answer == 1) { // check if the user is a citizen
