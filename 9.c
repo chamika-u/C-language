@@ -21,7 +21,8 @@ int main() {
 
     if (age >= votingAge) {
         printf("You are eligible to vote.\n");
-    } else {
+    } 
+    else {
         printf("You are not eligible to vote.\n");
     }
     */
@@ -29,18 +30,23 @@ int main() {
     // nested if statement to check citizenship and age
     if (age > 120) {    // basic validation for age input
         printf("Invalid age entered.\n"); 
-    } else if (age < 0) { // basic validation for age input
+    }
+    else if (age < 0) { // basic validation for age input
         printf("Invalid age entered.\n");
-    } else {
+    }
+    else { // valid age input
         if (answer == 1) { // check if the user is a citizen
             if (age >= votingAge) { // check if the user is of voting age
                 printf("You are eligible to vote.\n");
-            } else {
+            }
+             else { // if the user is not of voting age
                 printf("You are not eligible to vote.\n");
             }
-        } else if (answer == 0) {
+        }
+        else if (answer == 0) { // if the user is not a citizen
             printf("You are not eligible to vote.\n");
-        } else if (answer != 0 && answer != 1) {
+        }
+        else if (answer != 0 && answer != 1) { // basic validation for citizenship input
             printf("Invalid input for citizenship.\n");
         }
     }
