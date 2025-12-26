@@ -39,9 +39,12 @@ int main() {
 
     /*In here even if you think you cant just add arithmatic operators to char data type, 
     char data type recognize in ASCII value so it will convert char to int implicitly*/
-    
+
     int charResult = ch + e; // implicit conversion of 'ch' to int
     printf("The char result is: %d\n", charResult);
+
+    // So, the ASCII value of 'A' is 65, so 65 + 4 = 69
+    
     return 0;
 }
 
