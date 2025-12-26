@@ -1,3 +1,5 @@
+// Comments in C Programming Language
+
 #include <stdio.h>
 
 // This is a comment line in C code
@@ -23,7 +25,7 @@ int main() {
 
     // Printing values of variables
     printf("Integer a: %d\n", a);
-    
+
    // In here to run this following code you must remove the comment marks
 
    /* printf("Float b: %.2f\n", b); // .2 for two decimal places

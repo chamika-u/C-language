@@ -1,3 +1,5 @@
+// Program to take user input for different data types and display them
+
 #include <stdio.h>
 
 int main(){

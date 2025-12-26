@@ -1,6 +1,6 @@
-#include <stdio.h>
-
 // Simple program to print age
+
+#include <stdio.h>
 
 int main() {
     int age = 21;
