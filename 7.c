@@ -1,4 +1,7 @@
 // Type conversion in c | explicit and implicit
+// Type conversion is the process of converting a variable from one data type to another.
+// There are two types of type conversion in C: implicit and explicit conversion.
+// You need to understand the data type hierarchy in C to understand type conversion.
 
 /*Data type hierarchy
     long double
@@ -29,22 +32,24 @@ int main() {
     float result = a + b; // implicit conversion of 'a' to float
     printf("The result is: %.2f\n", result);
 
-    /*In here even though 'd' is a float, we are explicitly converting it to an int using type casting.
-    This means that the decimal part of 'd' will be truncated before the addition operation.*/
+     /*In here even though 'a' is an int, it is implicitly
+     converted to float before the addition operation.*/
    
     int c = 100;
     float d = 200.5;
     int finalResult = c + d; // explicit conversion of 'd' to int
     printf("The final result is: %d\n", finalResult);
+   
+    /*In here even though 'd' is a float, we are explicitly converting it to an int using type casting.
+    This means that the decimal part of 'd' will be truncated before the addition operation.*/
 
     char ch = 'A';
     int e = 4;
-
-    /*In here even if you think you cant just add arithmatic operators to char data type, 
-    char data type recognize in ASCII value so it will convert char to int implicitly*/
-
     int charResult = ch + e; // implicit conversion of 'ch' to int
     printf("The char result is: %d\n", charResult);
+
+     /*In here even if you think you cant just add arithmatic operators to char data type, 
+    char data type recognize in ASCII value so it will convert char to int implicitly*/
 
     // So, the ASCII value of 'A' is 65, so 65 + 4 = 69
 
