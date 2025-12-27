@@ -44,7 +44,8 @@ int main() {
     float result2 = z + (int)r; // explicit conversion of 'r' to int
     printf("The result is: %.2f\n", result2);
 
-    /*Here, we are explicitly converting 'r' to an int using type casting.
+    /*Here, we are explicitly converting 'r' to 
+    an int using type casting.
     This means that the decimal part of 'r' will be truncated before the addition operation.*/
    
     int c = 100;

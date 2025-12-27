@@ -1,3 +1,4 @@
+// Program to check whether a number is even or odd using conditional operator
 
 #include <stdio.h>
 #include <stdbool.h>
