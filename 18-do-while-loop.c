@@ -15,3 +15,10 @@ int main() {
 
     return 0;
 }
+
+/* difference between while and do-while loop:
+   - while loop checks the condition before executing the loop body.
+   - do-while loop executes the loop body first and then checks the condition.
+   - Therefore, do-while loop guarantees at least one execution of the loop body, 
+     even if the condition is false initially.
+*/
