@@ -18,5 +18,6 @@ int main() {
     scanf("%d", &b);
 
     // Function call
-    AdditionofTwoNumbers(a, b);
+    AdditionofTwoNumbers(a, b); 
+    return 0;
 }
