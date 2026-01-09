@@ -1,3 +1,5 @@
+// addition of two numbers using a function in C
+
 #include <stdio.h>
 
 void AdditionofTwoNumbers(int a, int b) {
