@@ -9,15 +9,10 @@ void AdditionofTwoNumbers(int a, int b) {
 }
 
 int main() {
-    int a, b;
-
-    // Calling the function with user input
-    printf("Input first number: ");
-    scanf("%d", &a);
-    printf("Input second number: ");
-    scanf("%d", &b);
-
     // Function call
-    AdditionofTwoNumbers(a, b); 
+    AdditionofTwoNumbers(10, 20);
+    AdditionofTwoNumbers(30, 40);
+    AdditionofTwoNumbers(50, 60);
+    AdditionofTwoNumbers(70, 80); 
     return 0;
 }
