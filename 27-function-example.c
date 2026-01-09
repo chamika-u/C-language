@@ -9,8 +9,8 @@ void AdditionofTwoNumbers(int a, int b) {
 }
 
 int main() {
-
     int a, b;
+
     // Calling the function with user input
     printf("Input first number: ");
     scanf("%d", &a);
