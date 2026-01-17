@@ -15,5 +15,5 @@ int main () {
     *ptr = *ptr * 2;
     printf("Updated salary using pointer: %.2lf \n", *ptr);
 
-    return 0
+    return 0;
 }
