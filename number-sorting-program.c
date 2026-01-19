@@ -38,6 +38,38 @@ static void print_array(const int *arr, int size, const char *label) {
     printf("\n");
 }
 
+// Function to validate memory allocation and print paired elements
+static int validate_memory_and_print(int *arr1, int *arr2, int n, int k) {
+    if (arr1 == NULL || arr2 == NULL) {
+        printf("Memory allocation failed.\n");
+        free(arr1);
+        free(arr2);
+        return 0;
+    }
+    return 1;
+}
+
+// Function to read input sizes
+static int read_input_sizes(int *n, int *k) {
+    printf("Enter the number of elements for array 1: ");
+    if (scanf("%d", n) != 1) {
+        fprintf(stderr, "Invalid input. Expected an integer.\n");
+        return 0;
+    }
+
+    printf("Enter the number of elements for array 2: ");
+    if (scanf("%d", k) != 1) {
+        fprintf(stderr, "Invalid input. Expected an integer.\n");
+        return 0;
+    }
+
+    if (*n <= 0 || *k <= 0) {
+        printf("Number of elements must be positive.\n");
+        return 0;
+    }
+    return 1;
+}
+
 // Main function
 int main() {
     
@@ -45,41 +77,17 @@ int main() {
     int n;
     int k;
 
-    // Get the number of elements from the user
-    printf("Enter the number of elements for array 1: ");
-    if (scanf("%d", &n) != 1) {
-        fprintf(stderr, "Invalid input. Expected an integer.\n");
+    // Read input sizes
+    if (!read_input_sizes(&n, &k)) {
         return 1;
-    }
-
-    // Get the number of elements for the second array
-    printf("Enter the number of elements for array 2: ");
-    if (scanf("%d", &k) != 1) {
-        fprintf(stderr, "Invalid input. Expected an integer.\n"); // print error message
-        return 1;
-    }
-
-    if (n <= 0 || k <= 0) {
-        printf("Number of elements must be positive.\n"); 
-        return 1; // return with error code
     }
 
     // Dynamically allocate memory for the arrays
     int *arr1 = malloc(n * sizeof(int));
     int *arr2 = malloc(k * sizeof(int));
 
-    // Check for successful memory allocation
-    if (arr1 == NULL || arr2 == NULL) {
-        printf("Memory allocation failed.\n");
-        free(arr1);
-        free(arr2);
-        printf("Paired sorted elements:\n");
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < k; ++j) {
-            printf("array1 element %d (%d) with array2 element %d (%d)\n",
-                   i + 1, arr1[i], j + 1, arr2[j]);
-            }
-        }
+    // Validate memory allocation
+    if (!validate_memory_and_print(arr1, arr2, n, k)) {
         return 1;
     }
 
