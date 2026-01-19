@@ -20,16 +20,17 @@ int inputFromUser() {
             return number; // return the valid number
         }
 
-        printf("Invalid Input (Input number greater than or equal to 0 and lower or equal to 10)\n"); 
+        printf("Invalid Input (Input number greater than or equal to 0 and lower or equal to 10)\n"); // prompt for valid input
     }
 }
 
 // function for generate the secret number
 int numberGen() {
-    static int seeded = 0;
+    static int seeded = 0; // static variable to ensure seeding happens only once
 
+    // check if already seeded
     if (!seeded) {
-        srand((unsigned)time(NULL));
+        srand((unsigned)time(NULL)); 
         seeded = 1;
     }
 
@@ -37,7 +38,7 @@ int numberGen() {
 }
 
 // main function
-int main () {
+int main () { 
     int secretNumber = numberGen();
     int guess = inputFromUser();
 
