@@ -4,6 +4,7 @@
 #include <stdlib.h> // Required for rand() and srand()
 #include <time.h>   // Required for time()
 
+// global variable to store the user's guessed number
 int number;
 
 // function for get number as a input from user
