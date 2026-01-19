@@ -20,7 +20,8 @@ int inputFromUser() {
             return number; // return the valid number
         }
 
-        printf("Invalid Input (Input number greater than or equal to 0 and lower or equal to 10)\n"); // prompt for valid input
+        // prompt for valid input
+        printf("Invalid Input (Input number greater than or equal to 0 and lower or equal to 10)\n"); 
     }
 }
 
