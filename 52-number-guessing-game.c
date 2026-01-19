@@ -30,11 +30,11 @@ int numberGen() {
 
     // check if already seeded
     if (!seeded) {
-        srand((unsigned)time(NULL)); 
-        seeded = 1;
+        srand((unsigned)time(NULL)); // seed the random number generator
+        seeded = 1; 
     }
 
-    return rand() % 11;
+    return rand() % 11; 
 }
 
 // main function
