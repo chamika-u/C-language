@@ -14,14 +14,13 @@ int main () {
     *(array+3) = 8;
     *(array+4) = 10;
 
+    // print new values for each element
     printf("Value of element 1: %d \n", *array);
     printf("Value of element 2: %d \n", *(array+1));
     printf("Value of element 3: %d \n", *(array+2));
     printf("Value of element 4: %d \n", *(array+3));
     printf("Value of element 5: %d \n", *(array+4));
 
-    
-    
     return 0;
 
 }
