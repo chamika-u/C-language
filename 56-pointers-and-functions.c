@@ -2,9 +2,11 @@
 
 #include <stdio.h>
 
+// function to change value
 void findValue (int* num){
     *num= 55;
 }
+
 int main() {
 
     // variable declarion
