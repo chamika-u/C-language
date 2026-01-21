@@ -12,7 +12,12 @@ int main () {
         printf("%d = %p\n", array[i], &array[i]);
     }
 
-    printf("Array Adress: %p", array+2);
+    printf("Array Adress of 1: %p \n", array);
+    printf("Array Adress of 2: %p \n", array+1);
+    printf("Array Adress of 3: %p \n", array+2);
+    printf("Array Adress of 4: %p \n", array+3);
+    printf("Array Adress of 5: %p \n", array+4);
+
 
     return 0;
 
