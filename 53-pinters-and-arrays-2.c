@@ -16,7 +16,7 @@ int main () {
       //  printf("Array Address for %d = %p\n", *(array+i), &array[i]); //--> This will do the same thing  
 
     }
-
+    
     return 0;
 
 }
