@@ -10,6 +10,11 @@ int main () {
     // print array adress for each item in array
     for (int i=0; i<5; i++){
         printf("Array Address for %d = %p\n", array[i], array + i);
+
+      //  printf("Array Address for %d = %p\n", *(array+i), array + i); //--> This will do the same thing
+      //  printf("Array Address for %d = %p\n", array[i], &array[i]); //--> This will do the same thing  
+      //  printf("Array Address for %d = %p\n", *(array+i), &array[i]); //--> This will do the same thing  
+
     }
 
     return 0;
