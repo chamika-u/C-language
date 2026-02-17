@@ -1,4 +1,4 @@
-// this program demonstrates hot to compare two strings
+// this program demonstrates how to compare two strings
 
 #include <stdio.h>
 #include <string.h>

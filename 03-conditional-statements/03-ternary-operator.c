@@ -1,4 +1,4 @@
-// Ternerrary operator and boolean operations in C
+// Ternary operator and boolean operations in C
 
 #include <stdio.h>
 #include <stdbool.h>

@@ -7,7 +7,7 @@ int main () {
     // array declaration
     int array [5] = {1,2,3,4,5};
 
-    // chnaging the allocated value for each elements using array adress;
+    // changing the allocated value for each elements using array address;
     *array = 2;
     *(array+1) = 4;
     *(array+2) = 6;

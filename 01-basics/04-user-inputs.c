@@ -4,7 +4,7 @@
 
 int main(){
 
-    //variable declarion
+    //variable declaration
     int age;
     float marks;
     double average;
@@ -14,19 +14,19 @@ int main(){
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    printf("\nEnter your makrs: ");
+    printf("\nEnter your marks: ");
     scanf("%f", &marks);
 
     printf("\nEnter your average: ");
     scanf("%lf", &average);
 
-    printf("\nEnter your garde: ");
+    printf("\nEnter your grade: ");
     scanf(" %c", &grade);
 
     //printing all the user input 
     printf("Your age is %d\n", age);
     printf("Your marks is %f\n", marks);
-    printf("Your average us %lf\n", average);
+    printf("Your average is %lf\n", average);
     printf("Your grade is %c", grade);
 
 }

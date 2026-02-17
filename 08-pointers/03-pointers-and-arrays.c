@@ -10,5 +10,5 @@ int main() {
         printf("Value of numbers[%d]: %d \n", i, *(numbers + i)); // print the value of each element using pointer arithmetic
     }
 
-    printf("Array Adress: %p \n", numbers); // print the base address of the array
+    printf("Array Address: %p \n", numbers); // print the base address of the array
 }

@@ -1,4 +1,4 @@
-// this program demonstrates the pointer variable in C
+// this program demonstrates pointers in C
 
 #include <stdio.h>
 
