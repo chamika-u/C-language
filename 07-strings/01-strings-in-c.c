@@ -1,4 +1,4 @@
-// this demonstrates basic string operations in C using the C17 standard
+// this demonstrates basic string operations in C
 
 #include <stdio.h>
 #include <string.h> // Including string header file for string operations

@@ -1,4 +1,4 @@
-// this program demonstartes change value of a number using pointers and functions
+// this program demonstrates change value of a number using pointers and functions
 
 #include <stdio.h>
 
@@ -9,7 +9,7 @@ void findValue (int* num){
 
 int main() {
 
-    // variable declarion
+    // variable declaration
     int number = 12;
 
     // print number
@@ -19,7 +19,7 @@ int main() {
     findValue(&number);
 
     // print changed value
-    printf("Chnaged Number: %d", number);
+    printf("Changed Number: %d", number);
 
     return 0;
 

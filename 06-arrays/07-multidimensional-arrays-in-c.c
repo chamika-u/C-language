@@ -11,7 +11,7 @@ int main() {
     };
 
     // printing the marks of each student in each subject
-    for (int i = 0; i < 3; i++) { // loop
+    for (int i = 0; i < 3; i++) { // loop through students
         printf("Marks of student %d:\n", i + 1);
         for (int j = 0; j < 4; j++) { // loop through subjects
             printf(" Subject %d: %d\n", j + 1, marks[i][j]);

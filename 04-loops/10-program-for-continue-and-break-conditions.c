@@ -4,7 +4,7 @@
 
 int main() {
 
-    // chechink whether its negative or positive
+    // checking whether its negative or positive
     while (1){
         // variable declaration
         int number;

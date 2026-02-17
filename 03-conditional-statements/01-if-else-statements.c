@@ -1,4 +1,4 @@
-// If statements in C
+// if-else statements in C
 
 #include <stdio.h>
 #include <stdbool.h>

@@ -1,4 +1,4 @@
-// swtich statement in month selecting program
+// switch statement in month selecting program
 
 #include <stdio.h>
 

@@ -5,7 +5,7 @@
 
 int main() {
 
-    // varible declaration
+    // variable declaration
     bool a = true;
     bool b = false;
     bool c;
