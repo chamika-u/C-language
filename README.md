@@ -2,7 +2,7 @@
 
 Welcome to the comprehensive C programming tutorial! This repository contains organized lessons covering fundamental to advanced C programming concepts.
 
-## 📚 Table of Contents
+## Table of Contents
 
 ### [01 - Basics](./01-basics)
 Learn the fundamentals of C programming
@@ -88,7 +88,7 @@ Apply your knowledge with complete programs
 - **01-number-sorting-program.c** - Sorting algorithm implementation
 - **02-number-guessing-game.c** - Interactive guessing game
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - GCC compiler or any C compiler
@@ -114,7 +114,7 @@ gcc filename.c -o output -lm
 ./output
 ```
 
-## 📖 Learning Path
+## Learning Path
 
 1. **Start with Basics** - Understand syntax, data types, and basic I/O
 2. **Master Operators** - Learn arithmetic and logical operations
@@ -126,7 +126,7 @@ gcc filename.c -o output -lm
 8. **Pointers** - Understand memory management
 9. **Projects** - Build complete applications
 
-## 🎯 Tips for Learning
+## Tips for Learning
 
 - Practice each program by typing it yourself (don't just copy-paste)
 - Modify examples to experiment with different values
@@ -134,7 +134,7 @@ gcc filename.c -o output -lm
 - Read error messages carefully - they guide you to solutions
 - Build small projects to apply what you've learned
 
-## 📝 Contributing
+## Contributing
 
 Feel free to contribute by:
 - Reporting bugs or errors in code
@@ -142,10 +142,10 @@ Feel free to contribute by:
 - Adding new examples
 - Improving documentation
 
-## 📄 License
+## License
 
 This repository is for educational purposes. Feel free to use and share.
 
 ---
 
-**Happy Coding! 💻**
+**Happy Coding! **
